@@ -1,0 +1,130 @@
+body{
+  background-color: rgb(246, 246, 238);
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#root{
+  height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.tickets{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.btn-submit,
+.btn-reset,
+.btn.add-ticket {
+  margin-left: 5px;
+  appearance: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 6px;
+  background-color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+}
+.btn:hover,
+.short-description:hover,
+.status-checkbox:hover{
+  cursor: pointer;
+}
+li .btn{
+  width: 35px;
+  height: 25px;
+  margin-left: 5px;
+  border-radius: 100%;
+  appearance: none;
+  border: 1px solid gray;
+  background-color:white;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.ticket{
+  padding:10px;
+  display: flex;
+  border: 1px solid rgb(246, 246, 238);
+  border-radius: 5px;
+  margin-top: 5px;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: white;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.form-container{
+  font-size: 12px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  z-index: 999;
+  background-color:rgba(227, 203, 203, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+}
+.form-wrap{
+  background-color:white;
+  border: 1px solid rgba(227, 203, 203, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 300px;
+  font-size: 12px;
+}
+.form-wrap{
+  background-color:white;
+  border: 1px solid rgba(227, 203, 203, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 300px;
+  font-size: 12px;
+}
+
+.deactive{
+  display: none;
+}
+.short-description,
+.date{
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  min-width: 150px;
+  /* word-wrap: none; */
+}
+.description {
+  width: 100%;
+}
+.date{
+  margin-left: 10px;
+}
+.short-description,
+.full-description{
+  box-sizing: border-box;
+  width: 100%;
+}
+.full-description{
+font-size: 10px;
+  resize: none;
+}
+.form-wrap h2{
+  font-weight: 100;
+  font-size: 10px;
+}
+.form-header{
+  font-size: 12px;
+  text-align: center;
+}
+.btn-wrap{
+  text-align: end;
+}
