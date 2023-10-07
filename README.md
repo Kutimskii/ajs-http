@@ -1,2 +1,2 @@
 # HTTP
-![CI](https://github.com/Kutimskii/enviroment/actions/workflows/web.yml/badge.svg) https://kutimskii.github.io/dom_one/
+[![Build status](https://ci.appveyor.com/api/projects/status/b3l0ltfnw537adsr?svg=true)](https://ci.appveyor.com/project/Kutimskii/ajs-http)
